@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+
+
+  /* Colors */
+
+  --clr-light: #fff;
+  --clr-bg: #2ab3ba;
+  --clr-accent: #c0df33;
+  --clr-body: #9aa7be;
+
+  /* Typography */
+
+  --ff-main:font-family: 'Karla', sans-serif;
+  
+  --fs-accent: 2rem; /* 32px */
+  --fs-main-header: 1.5rem; /*24px*/
+  --fs-secondary-header: 1.125rem; /* 18px */
+  --fs-body: 1rem;  /* 16px body/button */
+  --fs-details: .875rem; /* 14px */
+  
+
+  --fw-std: 400;
+  --fw-bold: 700;
+
+
+}
+
+body{
+  font-family: var(--ff-main);
+  line-height: 26px;
+}
+.fs-main-header{
+  font-size: var(--fs-main-header);
+  font-weight: var(--fw-bold);
+  
+}
