@@ -19,59 +19,65 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Single Price Grid Component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
-    <div class="container">
-      <section class="top-box">
-        <h1 class="fs-main-header">Join our community</h1>
-        <h2 class="fs-secondary-header top-title">
-          30-day, hassle-free money back guarantee
-        </h2>
-        <p class="fs-body">
-          Gain access to our full library of tutorials along with expert code
-          reviews. Perfect for any developers who are serious about honing their
-          skills.
-        </p>
-      </section>
-      <!-- <div class="bottom-container"> -->
-      <aside class="custom-text">
-        <div class="left-box">
-          <h2 class="fs-secondary-header accent-title">Monthly Subscription</h2>
-          <div class="price">
-            <h1 class="fs-accent">&dollar;29</h1>
-            <p class="accent">per month</p>
+    <main class="card card__grid">
+      <section class="card__section card--top flex-col">
+        <header class="card__header--wrapper flex-col">
+          <h1 class="card__header card__header--large">Join our Community</h1>
+          <div class="card__subheader--wrapper flex-col">
+            <h3
+              class="card__header--small card__header--green card__header--ls"
+            >
+              30-day, hassle-free money back guarantee
+            </h3>
+            <p class="card__para card__para--grey card__para--lh">
+              Gain access to our full library of tutorials along with expert
+              code reviews. Perfect for any developers who are serious about
+              honing their skills.
+            </p>
           </div>
-          <p class="fs-body-accent fs-body">
-            Full access for less than &dollar;1 a day
-          </p>
-          <button class="btn">Sign Up</button>
+        </header>
+      </section>
+
+      <!-- left -->
+      <section class="card__section card--left">
+        <h3
+          class="card__header--small card__header--white card__header--ls card__header--padding"
+        >
+          Monthly Subscription
+        </h3>
+        <div class="card__price-wrapper flex-row">
+          <span class="card__price card__price--strong"
+            ><strong>&dollar;29</strong></span
+          >
+          <p class="card__para card__para--white">per month</p>
         </div>
-      </aside>
-      <aside class="custom-text">
-        <div class="right-box">
-          <h2 class="fs-secondary-header accent-title">Why Us</h2>
-          <ul>
-            <li class="fs-details">Tutorials by industry experts</li>
-            <li class="fs-details">Peer &amp; expert code review</li>
-            <li class="fs-details">Coding exercises</li>
-            <li class="fs-details">Access to our GitHub repos</li>
-            <li class="fs-details">Community forum</li>
-            <li class="fs-details">Flashcard decks</li>
-            <li class="fs-details">New videos every week</li>
-          </ul>
-        </div>
-      </aside>
-      <!-- </div> -->
-    </div>
-    <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </p>
-    </footer>
+        <p class="card_para card__para--white card__para--lh">
+          Full access for less than &dollar;1 a day.
+        </p>
+
+        <a href="#" class="btn btn--drop-shadow">Sign Up</a>
+      </section>
+
+      <!-- right -->
+      <section class="card__section card--right flex-col">
+        <h3
+          class="card__header--small card__header--white card__header--padding"
+        >
+          Why Us
+        </h3>
+        <ul class="card__u-list flex-col">
+          <li class="card__list">Tutorials by industry experts</li>
+          <li class="card__list">Peer & Expert code review</li>
+          <li class="card__list">Coding exercises</li>
+          <li class="card__list">Access to our GitHub repos</li>
+          <li class="card__list">Community forum</li>
+          <li class="card__list">Flashcard decks</li>
+          <li class="card__list">New videos every week</li>
+        </ul>
+      </section>
+    </main>
   </body>
+  <footer></footer>
 </html>
