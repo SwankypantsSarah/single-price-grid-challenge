@@ -46,6 +46,10 @@ li {
   font-size: var(--fs-details);
 }
 
+a {
+  text-decoration: none;
+}
+
 .card__header--large {
   font-size: var(--fs-main-header);
   color: var(--clr-bg);
@@ -166,6 +170,7 @@ span {
   margin-top: 26px;
   font-size: var(--fs-body);
   background-color: var(--clr-accent);
+  color: var(--clr-light);
 }
 
 /* card right */
